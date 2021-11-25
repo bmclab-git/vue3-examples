@@ -31,7 +31,7 @@ lifecycle.value.push('Created')
 <template>
   <h1>{{ msg }}</h1>
 
-  <h3>생명 주기 테스트</h3>
+  <h3>* 생명 주기 테스트 *</h3>
   <div id="board">
     <p v-for="(item, idx) in lifecycle" v-text="item" />
   </div>
