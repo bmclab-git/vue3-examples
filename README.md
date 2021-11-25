@@ -18,3 +18,8 @@ npm run dev
 npm run build
 
 _vitejs 를 통해 빌드된 dist 아래 파일들은 적절한 서버환경으로 Copy해야 합니다. (IIS, Apache 등)_
+
+
+### github Permission denied (publickey) 오류 해결법
+- git remote set-url origin https://bmclab-git@github.com/bmclab-git/vue3-examples.git
+- 위 코드로 깃허브 페러지토리에 대한 접근 권한/인증을 받으면 됩니다.
