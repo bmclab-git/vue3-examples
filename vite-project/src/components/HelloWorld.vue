@@ -25,6 +25,17 @@ onBeforeUnmount(() => {
 })
 
 lifecycle.value.push('Created')
+</script>
+
+<script>
+export default {
+  name: 'Alerts',
+  methods: {
+    alert: function () {
+      alert('👋 Well, hi there! Thanks for dismissing me.')
+    },
+  },
+}
 
 </script>
 
@@ -52,6 +63,7 @@ lifecycle.value.push('Created')
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
+  <button type="button" @click="alert">alert</button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
@@ -88,6 +100,7 @@ lifecycle.value.push('Created')
     </table>
   </p>
 </template>
+
 
 <style scoped>
 a {

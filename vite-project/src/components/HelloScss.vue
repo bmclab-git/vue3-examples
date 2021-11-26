@@ -90,7 +90,9 @@ lifecycle.value.push('Created')
 </template>
 
 <style lang="sass">
-div {
-  color: $bgColor;
-}
+
+// div {
+//   color: $bgColor;
+// }
+
 </style>
